@@ -83,6 +83,7 @@ a.btn:hover {
 .home-container .left h1 {
     font-size: 46px;
     background: linear-gradient(to right, #2BBFB0, #333E50);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
