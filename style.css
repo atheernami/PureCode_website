@@ -2,8 +2,10 @@
     --dark-color: #333E50;
     --blue-color: #1C6179;
     --green-color: #2BBFB0;
-
+    --stroke-color: #333E50;
+/* hoover cokors */
     --green-hoover-color: #5cc8bd;
+    --lighterBlue-color: #46618b;
 }
 
 
@@ -100,23 +102,6 @@ a.btn:hover {
 }
 
 /* animation */
-/* animation .desktop-nav {
-    animation: fadeDown 100ms forwards;
-    opacity: 0;
-}
-
-@keyframes fadeDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateY(0);
-    }
-}*/
-
 .home-container .left h1 {
     animation: fadeIn 600ms forwards;
     opacity: 0;
@@ -156,4 +141,17 @@ a.btn:hover {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+/* about section */
+.about-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-container .about-image {
+    position: absolute;
+    z-index: -1;
+    top: 800px;
 }
