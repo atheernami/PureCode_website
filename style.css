@@ -575,12 +575,13 @@ a.btn:hover {
     animation-delay: 600ms;
 }
 
-/* footer footer {
+/* footer  
+.wrapper2 {
     text-align: center;
     background: rgb(51, 51, 51);
     color: white;
     padding: 0;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 10px;
 }*/
