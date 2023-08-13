@@ -161,6 +161,7 @@ a.btn:hover {
 .about-container .about-image {
     position: absolute;
     z-index: -1;
+    left: 100px;
     top: 800px;
 }
 
@@ -554,3 +555,32 @@ a.btn:hover {
 }
 
 /* contact us section */
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container .contact-image {
+    position: absolute;
+    z-index: -1;
+    left: 100px;
+    top: 4100px;
+}
+
+/* animation */
+.contact-container .contact-image {
+    animation: fadeIn 600ms forwards;
+    opacity: 0;
+    animation-delay: 600ms;
+}
+
+/* footer footer {
+    text-align: center;
+    background: rgb(51, 51, 51);
+    color: white;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}*/
