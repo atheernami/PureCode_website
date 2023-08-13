@@ -3,7 +3,7 @@
     --blue-color: #1C6179;
     --green-color: #2BBFB0;
     --stroke-color: #333E50;
-/* hoover cokors */
+    /* hoover cokors */
     --green-hoover-color: #5cc8bd;
     --lighterBlue-color: #46618b;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .desktop-nav .menu-items li a.btn {
-    color: var(--dark-color);  
+    color: var(--dark-color);
 }
 
 a.btn {
@@ -62,6 +62,14 @@ a.btn {
 
 a.btn:hover {
     background: var(--green-hoover-color);
+}
+
+.desktop-nav .menu-items .btn .call {
+    position: absolute;
+    width: 26.75px;
+    height: 23.11px;
+    left: 1255px;
+    top: 35px;
 }
 
 /* home section */
@@ -155,3 +163,394 @@ a.btn:hover {
     z-index: -1;
     top: 800px;
 }
+
+/* animation */
+.about-container .about-image {
+    animation: fadeIn 600ms forwards;
+    opacity: 0;
+    animation-delay: 600ms;
+}
+
+/* services section */
+.service-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-container h2 {
+    text-decoration: none;
+    font-size: 34px;
+    color: var(--dark-color);
+    position: absolute;
+    font-weight: 600px;
+    width: 229px;
+    height: 47px;
+    left: 598px;
+    top: 1300.38px;
+}
+
+.service-container .left1 h3 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 268.44px;
+    height: 35px;
+    left: 199.51px;
+    top: 1400.36px;
+}
+
+.service-container .left1 p {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 526.96px;
+    height: 68px;
+    left: 200px;
+    top: 1450px;
+}
+
+.service-container .left1 .btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 43px;
+    left: 199.51px;
+    top: 1530.8px;
+    background: var(--green-color);
+    border: 2px solid var(--green-color);
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-container .right1 {
+    position: absolute;
+    right: 200px;
+    top: 1300px;
+}
+
+.service-container .left2 h4 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 230px;
+    height: 35px;
+    left: 713.53px;
+    top: 1793.36px;
+}
+
+.service-container .left2 p {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 526.96px;
+    height: 107.18px;
+    left: 713.53px;
+    top: 1843.77px;
+}
+
+.service-container .left2 .btn3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 43px;
+    left: 713.53px;
+    top: 1950.8px;
+    background: var(--green-color);
+    border: 2px solid var(--green-color);
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-container .right2 {
+    position: absolute;
+    left: 200px;
+    top: 1740px;
+}
+
+.service-container .left3 h3 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 268.44px;
+    height: 70px;
+    left: 199.51px;
+    top: 2230.36px;
+}
+
+.service-container .left3 p {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 526.96px;
+    height: 107.18px;
+    left: 199.51px;
+    top: 2280.77px;
+}
+
+.service-container .left3 .btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 180px;
+    height: 43px;
+    left: 199.51px;
+    top: 2390.8px;
+    background: var(--green-color);
+    border: 2px solid var(--green-color);
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-container .right3 {
+    position: absolute;
+    right: 200px;
+    top: 2150px;
+}
+
+.service-container p {
+    text-decoration-line: underline;
+    font-size: 18px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 185px;
+    height: 40px;
+    left: 625px;
+    top: 2570px;
+}
+
+.service-container .left1 .btn2:hover {
+    background: var(--green-hoover-color);
+}
+
+.service-container .left2 .btn3:hover {
+    background: var(--green-hoover-color);
+}
+
+.service-container .left3 .btn2:hover {
+    background: var(--green-hoover-color);
+}
+
+/* faq's section */
+.faq-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-container h2 {
+    text-decoration: none;
+    font-size: 34px;
+    color: var(--dark-color);
+    position: absolute;
+    font-weight: 600px;
+    width: 640px;
+    height: 47px;
+    left: 420px;
+    top: 2630px;
+}
+
+.faq-container .left1 h4 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 369px;
+    height: 195px;
+    left: 106px;
+    top: 2750px;
+}
+
+.faq-container .right1 li {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 720.31px;
+    height: 205.52px;
+    left: 536.74px;
+    top: 2750px;
+}
+
+.faq-container .left2 h4 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 369px;
+    height: 195px;
+    left: 106px;
+    top: 2900px;
+}
+
+.faq-container .right2 li {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 720.31px;
+    height: 206.84px;
+    left: 536.74px;
+    top: 2900px;
+}
+
+.faq-container .left3 h4 {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 369px;
+    height: 195px;
+    left: 106px;
+    top: 3050px;
+}
+
+.faq-container .right3 li {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: 400;
+    position: absolute;
+    width: 720.31px;
+    height: 206.84px;
+    left: 536.74px;
+    top: 3050px;
+}
+
+.faq-container p {
+    text-decoration-line: underline;
+    font-size: 18px;
+    color: var(--dark-color);
+    font-weight: 500;
+    position: absolute;
+    width: 185px;
+    height: 40px;
+    left: 625px;
+    top: 3200px;
+}
+
+/* programming section */
+.pro-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro-container h2 {
+    text-decoration: none;
+    font-size: 34px;
+    color: var(--dark-color);
+    font-weight: 600;
+    position: absolute;
+    width: 441px;
+    height: 47px;
+    left: 550px;
+    top: 3300px;
+}
+
+.pro-container .image1 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 126px;
+    top: 3400px;
+}
+
+.pro-container .image2 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 429px;
+    top: 3400px;
+}
+
+.pro-container .image3 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 732px;
+    top: 3400px;
+}
+
+.pro-container .image4 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 1035px;
+    top: 3400px;
+}
+
+.pro-container .image5 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 126px;
+    top: 3700px;
+}
+
+.pro-container .image6 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 429px;
+    top: 3700px;
+}
+
+.pro-container .image7 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 732px;
+    top: 3700px;
+}
+
+.pro-container .image8 {
+    position: absolute;
+    width: 271px;
+    height: 249px;
+    left: 1035px;
+    top: 3700px;
+}
+
+/* contact us section */
